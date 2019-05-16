@@ -11,7 +11,7 @@ objc_prefix="PYA"
 djinni_file="$base_dir/djinni/audio_mixer.djinni"
 
 rm -rf $base_dir/generated_src && \
-/usr/local/djinni/src/run \
+/Users/jason/Eric/project/djinni/src/run \
    --java-out $java_out \
    --java-package $java_package \
    --ident-java-field mFooBar \
